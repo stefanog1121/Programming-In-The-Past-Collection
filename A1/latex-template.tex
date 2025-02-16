@@ -1,0 +1,122 @@
+\documentclass[12pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{tabularx}
+\usepackage{booktabs}
+\usepackage{hyperref}
+
+% Page margins
+\geometry{margin=1in}
+
+% Define colors for syntax highlighting
+\definecolor{codegreen}{rgb}{0,0.6,0}
+\definecolor{codegray}{rgb}{0.5,0.5,0.5}
+\definecolor{codepurple}{rgb}{0.58,0,0.82}
+\definecolor{backcolour}{rgb}{0.95,0.95,0.92}
+
+% Code listing style
+\lstdefinestyle{mystyle}{
+    backgroundcolor=\color{backcolour},   
+    commentstyle=\color{codegreen},
+    keywordstyle=\color{magenta},
+    stringstyle=\color{codepurple},
+    basicstyle=\ttfamily\small,
+    breakatwhitespace=false,         
+    breaklines=true,                 
+    captionpos=b,                    
+    keepspaces=true,                 
+    numbersep=5pt,                  
+    showspaces=false,                
+    showstringspaces=false,
+    showtabs=false,                  
+    tabsize=2
+}
+\lstset{style=mystyle}
+
+% Title information
+\title{CMPT 331 - Theory of Programming Languages\\
+Programming in the Past}
+\author{[Your Name Here]\\
+[Your Email]}
+\date{\today}
+
+\begin{document}
+
+\maketitle
+
+\section{Introduction}
+\subsection{Prediction}
+Initial time estimate for completing this assignment: [Your prediction here]
+
+\section{Implementation Overview}
+Brief overview of the Caesar cipher implementation across different languages.
+
+\section{Language Implementations}
+\subsection{Fortran Implementation}
+\lstinputlisting[language=Fortran, caption=Fortran Caesar Cipher Implementation]{fortran_cipher.f90}
+
+\subsection{COBOL Implementation}
+\lstinputlisting[language=COBOL, caption=COBOL Caesar Cipher Implementation]{cobol_cipher.cbl}
+
+\subsection{BASIC Implementation}
+\lstinputlisting[language=Basic, caption=BASIC Caesar Cipher Implementation]{basic_cipher.bas}
+
+\subsection{Pascal Implementation}
+\lstinputlisting[language=Pascal, caption=Pascal Caesar Cipher Implementation]{pascal_cipher.pas}
+
+\subsection{Scala Implementation}
+\lstinputlisting[language=Scala, caption=Scala Caesar Cipher Implementation]{scala_cipher.scala}
+
+\section{Consulting Log}
+\begin{tabularx}{\textwidth}{|X|X|X|X|}
+\hline
+\textbf{Date} & \textbf{Hours Spent} & \textbf{Head Slaps} & \textbf{Tasks/Accomplishments/Issues/Thoughts} \\
+\hline
+& & & \\
+\hline
+\end{tabularx}
+
+\section{Language Analysis}
+\subsection{Comparative Analysis}
+Discussion of similarities and differences between the languages.
+
+\subsection{Language Rankings}
+Final ranking of languages based on experience:
+\begin{enumerate}
+\item [Language 1] - Reasoning
+\item [Language 2] - Reasoning
+\item [Language 3] - Reasoning
+\item [Language 4] - Reasoning
+\item [Language 5] - Reasoning
+\end{enumerate}
+
+\section{Search and AI Assistance Log}
+\subsection{Google Searches}
+\begin{itemize}
+\item Search query 1
+\item Search query 2
+\end{itemize}
+
+\subsection{AI Prompts}
+\begin{itemize}
+\item Prompt 1
+\item Prompt 2
+\end{itemize}
+
+\section{Test Results}
+\subsection{Test Cases}
+Testing with provided pangrams and additional test cases.
+
+\subsection{Output Examples}
+Example outputs from each implementation.
+
+\section{Time Analysis}
+\subsection{Predicted vs Actual Time}
+Comparison between initial time estimate and actual time spent.
+
+\section{Conclusion}
+Final thoughts and reflections on the experience of programming in different historical languages.
+
+\end{document}
