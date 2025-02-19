@@ -84,6 +84,22 @@
             "group": {
                 "kind": "test"
             }
+        },
+        {
+            "label": "Run Scala",
+            "type": "shell",
+            "command": "/opt/homebrew/Cellar/scala/3.6.3/libexec/bin/scala",
+            "args": [
+                "${file}"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "presentation": {
+                "reveal": "always"
+            },
+            "problemMatcher": []
         }
     ],
     "extensionVersion": "1.1.3"

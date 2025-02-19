@@ -6,14 +6,14 @@ SUB Encode(text AS STRING, shift AS INTEGER, BYREF result AS STRING)
     FOR i = 1 TO LEN(text)
         char = ASC(UCASE(MID(text, i, 1)))
         IF char = 32 THEN ' Space character
-            result = result + " "
+            result = result & " "
         ELSE
             ' Only shift alphabetic characters (A-Z: 65-90)
             IF char >= 65 AND char <= 90 THEN
                 char = 65 + ((char - 65 + shift) MOD 26)
-                result = result + CHR(char)
+                result = result & CHR(char)
             ELSE
-                result = result + MID(text, i, 1)
+                result = result & MID(text, i, 1)
             END IF
         END IF
     NEXT i
@@ -21,18 +21,18 @@ END SUB
 
 SUB Decode(text AS STRING, shift AS INTEGER, BYREF result AS STRING)
     DIM decode_shift AS INTEGER
-    decode_shift = 26 - shift ' Reverse the shift for decoding
-    Encode text, decode_shift, result
+    decode_shift = 26 - shift
+    Encode(text, decode_shift, result)
 END SUB
 
-SUB Solve(ciphertext AS STRING) ' Changed parameter name to be more specific
+SUB Solve(ciphertext AS STRING)
     DIM i AS INTEGER
-    DIM attempt AS STRING ' Changed variable name to avoid conflict
+    DIM attempt AS STRING
     
     PRINT "Solve Cipher:"
     FOR i = 1 TO 26
-        attempt = "" ' Using the new variable name
-        Encode ciphertext, i, attempt
+        attempt = ""
+        Encode(ciphertext, i, attempt)
         PRINT "Shift"; i; ": "; attempt
     NEXT i
 END SUB
@@ -48,17 +48,18 @@ SUB main()
     encrypted = ""
     decrypted = ""
     
-    Encode code, shift, encrypted
+    Encode(code, shift, encrypted)
     PRINT " -- Caesar Cipher --"
     PRINT ""
     PRINT "Encrypted: "; encrypted
     
-    Decode encrypted, shift, decrypted
+    Decode(encrypted, shift, decrypted)
     PRINT "Decrypted: "; decrypted
     
     PRINT ""
     code = "HAL"
-    Solve code
+    Solve(code)
 END SUB
 
-main
+main()
+END

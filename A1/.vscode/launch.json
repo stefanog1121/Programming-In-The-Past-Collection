@@ -2,10 +2,20 @@
     "version": "0.2.0",
     "configurations": [
         {
-            "type": "node",
+            "type": "scala",
+            "name": "Scala Debug",
             "request": "launch",
-            "name": "Run QB64/QB64pe BASIC Program",
-            "preLaunchTask": "${command:basic.runWithSelection}"
+            "mainClass": "Caesar",
+            "args": [],
+            "jvmOptions": []
+        },
+        {
+            "type": "basic",
+            "request": "launch",
+            "name": "Run BASIC Program",
+            "program": "${file}",
+            "cwd": "${workspaceRoot}",
+            "console": "integratedTerminal"
         }
     ]
 }
