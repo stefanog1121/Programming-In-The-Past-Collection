@@ -1,31 +1,35 @@
-# Caesar Cipher Programs Collection
+# Theory of Programming Languages Collection
 
-A collection of Caesar Cipher implementations across various programming languages, created as part of a Theory of Programming Languages class project. This project explores language history, evolution, syntax, and grammar through practical implementation.
+A collection of work done as part of CMPT331 - Theory of Programming Languages
+
+### Assignment 1 - Caesar Cipher
+Implementations of a simple Caesar Cipher across various early programming languages. This project explores language history, evolution, syntax, and grammar through practical implementation.
 
 ## Development Environment
 Primary development was done in Visual Studio Code where possible. Some languages required online IDEs due to extension support limitations.
 
 ## Language Implementations & Run Commands
 
-### Fortran
+### Assignment 1
+#### Fortran
 ```bash
 gfortran caesar.f95 -o caesar
 ./caesar
 ```
 
-### COBOL
+#### COBOL
 Due to VSCode extension limitations, this implementation uses the IDEONE COBOL IDE (browser-based).
 
-### BASIC
+#### BASIC
 Implementation uses the OneCompiler FreeBASIC IDE (browser-based) due to limited modern tool support.
 
-### Pascal
+#### Pascal
 ```bash
 fpc caesar.pas
 ./caesar
 ```
 
-### Scala
+#### Scala
 ```bash
 scala caesar.scala
 ```
