@@ -1,0 +1,51 @@
+2025.02.20 12:29:46 INFO  no build target found for /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/A1/caesar.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.20 12:29:48 INFO  Running List(/opt/homebrew/bin/scala, setup-ide, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+Feb 20, 2025 12:29:48 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2025.02.20 12:29:48 INFO  no build target found for /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/A1/caesar.scala. Using presentation compiler with project's scala-library version: 3.3.4
+2025.02.20 12:29:49 INFO  Attempting to connect to the build server...
+2025.02.20 12:29:49 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json, --envs-file, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+2025.02.20 12:29:49 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.metals/bsp.trace.json or /Users/stfarro/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.02.20 12:29:51 INFO  time: Connected to build server in 2.34s
+2025.02.20 12:29:51 INFO  Connected to Build server: scala v1.5.4
+2025.02.20 12:29:51 INFO  running doctor check
+2025.02.20 12:29:51 INFO  java targets: Programming-In-The-Past-Collection_79b5e8babc, Programming-In-The-Past-Collection_79b5e8babc-test
+2025.02.20 12:29:51 INFO  compiling programming-in-the-past-collection_79b5e8babc (1 scala source)
+2025.02.20 12:29:51 INFO  time: compiled Programming-In-The-Past-Collection_79b5e8babc in 0.94s
+2025.02.20 12:29:53 INFO  time: indexed workspace in 1.97s
+Feb 20, 2025 12:29:54 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Feb 20, 2025 12:31:09 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 12:31:13 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 12:31:46 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 12:32:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:01:02 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:01:03 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:01:07 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:01:08 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+2025.02.20 13:03:33 INFO  compiling programming-in-the-past-collection_79b5e8babc (1 scala source)
+2025.02.20 13:03:33 INFO  time: compiled Programming-In-The-Past-Collection_79b5e8babc in 0.35s
+Feb 20, 2025 1:03:47 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:04:06 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:04:22 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:04:25 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:06:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:07:18 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:07:52 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
+Feb 20, 2025 1:07:53 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+WARNING: Unsupported notification method: metals/windowStateDidChange
