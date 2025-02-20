@@ -1,16 +1,33 @@
-Collection of Caesar Cipher programs in various languages, done as an exploration of language history, evolution, syntax and grammar in our Theory of Programming Languages class.
+# Caesar Cipher Programs Collection
 
-Done on the Visual Studio Code where I could, but certain languages did require use of an online IDE where  extension support for a language failed.
+A collection of Caesar Cipher implementations across various programming languages, created as part of a Theory of Programming Languages class project. This project explores language history, evolution, syntax, and grammar through practical implementation.
 
--A1-
-Run/Compile Commands:
-    Fortan
-        gfortran caesar.f95 -o caesar ./caesar
-    COBOL
-        Compiled & run using the IDEONE COBOL IDE on the browser
-    BASIC
-        Compiled & run using the OneCompiler FreeBASIC IDE on the browser
-    Pascal
-        fpc caesar.pas && ./caesar
-    Scala
-        scala caesar.scala
+## Development Environment
+Primary development was done in Visual Studio Code where possible. Some languages required online IDEs due to extension support limitations.
+
+## Language Implementations & Run Commands
+
+### Fortran
+```bash
+gfortran caesar.f95 -o caesar
+./caesar
+```
+
+### COBOL
+Due to VSCode extension limitations, this implementation uses the IDEONE COBOL IDE (browser-based).
+
+### BASIC
+Implementation uses the OneCompiler FreeBASIC IDE (browser-based) due to limited modern tool support.
+
+### Pascal
+```bash
+fpc caesar.pas
+./caesar
+```
+
+### Scala
+```bash
+scala caesar.scala
+```
+
+Note: For languages requiring online IDEs, the code is maintained in this repository but must be copied to the respective online environment for execution.
