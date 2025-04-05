@@ -34,4 +34,18 @@ fpc caesar.pas
 scala caesar.scala
 ```
 
+
+### Assignment 3
+* Assignment 2 is lambda calculus work, which absolutely nobody wants to see :P *
+
+#### Lisp
+Run with Steel Bank Common Lisp and LISP VSCode extension
+
+#### F#
+```bash
+dotnet build
+dotnet run
+```
+
+
 Note: For languages requiring online IDEs, the code is maintained in this repository but must be copied to the respective online environment for execution.

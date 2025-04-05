@@ -363,3 +363,266 @@ java.util.concurrent.TimeoutException
 
 Apr 02, 2025 1:16:16 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
 INFO: Unsupported notification method: $/setTrace
+Apr 03, 2025 11:24:43 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 03, 2025 11:25:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 03, 2025 11:25:08 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 03, 2025 11:25:09 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.04.03 11:38:16 INFO  Shutting down server
+2025.04.03 11:38:16 INFO  shutting down Metals
+2025.04.03 11:38:16 INFO  Exiting server
+2025.04.03 11:38:29 INFO  Started: Metals version 1.5.2 in folders '/Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection' for client Visual Studio Code 1.97.2.
+2025.04.03 11:38:30 INFO  Attempting to connect to the build server...
+2025.04.03 11:38:30 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json, --envs-file, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+2025.04.03 11:38:30 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json --json-launcher-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json --envs-file /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:156)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:173)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:219)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$4(ConnectionProvider.scala:491)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$3(ConnectionProvider.scala:491)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.bsp.BspServers.newServer(BspServers.scala:156)
+	at scala.meta.internal.bsp.BspConnector.connect$1(BspConnector.scala:173)
+	at scala.meta.internal.bsp.BspConnector.connect(BspConnector.scala:219)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$4(ConnectionProvider.scala:491)
+	at scala.meta.internal.metals.TimerProvider.withTimer(TimerProvider.scala:38)
+	at scala.meta.internal.metals.TimerProvider.timed(TimerProvider.scala:14)
+	at scala.meta.internal.metals.ConnectionProvider$Connect$.$anonfun$createSession$3(ConnectionProvider.scala:491)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2025.04.03 11:38:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.metals/bsp.trace.json or /Users/stfarro/Library/Caches/org.scalameta.metals/bsp.trace.json
+Apr 03, 2025 11:38:33 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 03, 2025 11:38:37 AM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.04.03 11:39:30 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 11:39:30 WARN  Retrying connection to the build server scala
+2025.04.03 11:39:30 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json, --envs-file, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+2025.04.03 11:39:30 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json --json-launcher-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json --envs-file /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2025.04.03 11:39:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.metals/bsp.trace.json or /Users/stfarro/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.04.03 11:40:30 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 11:40:30 WARN  Retrying connection to the build server scala
+2025.04.03 11:40:30 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json, --envs-file, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+2025.04.03 11:40:30 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json --json-launcher-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json --envs-file /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2025.04.03 11:40:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.metals/bsp.trace.json or /Users/stfarro/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.04.03 11:41:30 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 11:41:30 WARN  Retrying connection to the build server scala
+2025.04.03 11:41:30 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json, --envs-file, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+2025.04.03 11:41:30 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json --json-launcher-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json --envs-file /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2025.04.03 11:41:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.metals/bsp.trace.json or /Users/stfarro/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.04.03 11:42:30 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 11:42:30 WARN  Retrying connection to the build server scala
+2025.04.03 11:42:30 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json, --envs-file, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+2025.04.03 11:42:30 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json --json-launcher-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json --envs-file /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2025.04.03 11:42:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.metals/bsp.trace.json or /Users/stfarro/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.04.03 11:43:30 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 11:43:30 WARN  Retrying connection to the build server scala
+2025.04.03 11:43:30 INFO  Running BSP server List(/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar, --cli-default-scala-version, 3.6.3, --repository, file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2, --prog-name, scala, --skip-cli-updates, bsp, --json-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json, --json-launcher-options, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json, --envs-file, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json, /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection)
+2025.04.03 11:43:30 ERROR Running process '/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar --cli-default-scala-version 3.6.3 --repository file:///opt/homebrew/Cellar/scala/3.6.3/libexec/maven2 --prog-name scala --skip-cli-updates bsp --json-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-options-v2.json --json-launcher-options /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-launcher-options.json --envs-file /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.scala-build/ide-envs.json /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection' failed
+java.io.IOException: Cannot run program "/opt/homebrew/Cellar/scala/3.6.3/libexec/libexec/scala-cli.jar" (in directory "/Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection"): error=2, No such file or directory
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1143)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+Caused by: java.io.IOException: error=2, No such file or directory
+	at java.lang.ProcessImpl.forkAndExec(Native Method)
+	at java.lang.ProcessImpl.<init>(ProcessImpl.java:314)
+	at java.lang.ProcessImpl.start(ProcessImpl.java:244)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1110)
+	at java.lang.ProcessBuilder.start(ProcessBuilder.java:1073)
+	at scala.meta.internal.process.SystemProcess$.run(SystemProcess.scala:48)
+	at scala.meta.internal.bsp.BspServers.newConnection$1(BspServers.scala:118)
+	at scala.meta.internal.bsp.BspServers.$anonfun$newServer$8(BspServers.scala:161)
+	at scala.meta.internal.metals.BuildServerConnection$.setupServer$1(BuildServerConnection.scala:601)
+	at scala.meta.internal.metals.BuildServerConnection$.fromSockets(BuildServerConnection.scala:669)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:686)
+	at scala.meta.internal.metals.BuildServerConnection$$anonfun$fromSockets$17.applyOrElse(BuildServerConnection.scala:683)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:490)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+2025.04.03 11:43:30 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at /Users/stfarro/Library/Mobile Documents/com~apple~CloudDocs/Marist 24-25/Spring 25/Theory of Programming Languages/Programming-In-The-Past-Collection/.metals/bsp.trace.json or /Users/stfarro/Library/Caches/org.scalameta.metals/bsp.trace.json
+2025.04.03 11:44:30 ERROR Timeout waiting for 'build/initialize' response
+2025.04.03 11:44:30 ERROR Failed to connect with build server, no functionality will work.
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(CompletableFuture.java:1960)
+	at java.util.concurrent.CompletableFuture.get(CompletableFuture.java:2095)
+	at scala.meta.internal.metals.BuildServerConnection$.initialize(BuildServerConnection.scala:754)
+	at scala.meta.internal.metals.BuildServerConnection$.$anonfun$fromSockets$1(BuildServerConnection.scala:627)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:467)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1136)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+	at java.lang.Thread.run(Thread.java:833)
+
+Apr 05, 2025 2:12:30 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+Apr 05, 2025 3:40:32 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

@@ -1,4 +1,5 @@
 (defvar *shift* 2)
+(defvar *input* "You go tell that vapid existentialist quack Freddy Nietzsche that he can just bite me, twice!")
 
 (defun shift-val (char)
     ; convert char to ASCII
@@ -33,13 +34,11 @@
 
 
 (defun main ()
-    (format t "---------------~%")
-    (let ((input "You go tell that vapid existentialist quack Freddy Nietzsche that he can just bite me, twice"))
-        (format t "Original: ~a~%" input)
-        (let ((encrypted (encrypt input)))
-            (format t "Encrypted: ~a~%" encrypted)
-            (format t "Decrypted: ~a~%" (decrypt encrypted)))))
+    (format t "------------------~%")
+    (format t "Original: ~a~%" *input*)
+    (format t "Encrypted: ~a~%" (encrypt *input*))
+    (format t "Decrypted: ~a~%" (decrypt (encrypt *input*)))
     (format t "--Solving Cipher--~%")
-    (solve "HAL")
+    (solve "HAL"))
 
 (main)
