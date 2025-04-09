@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("CaesarCipher")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f131408ae7c84f25d6b831de09c7ff10609cdf9a")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+7540106d852e0b435a1b8ef90abb774002b48e64")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("CaesarCipher")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("CaesarCipher")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

@@ -36,16 +36,32 @@ scala caesar.scala
 
 
 ### Assignment 3
-* Assignment 2 is lambda calculus work, which absolutely nobody wants to see :P *
+*Assignment 2 is lambda calculus work, which absolutely nobody wants to see :P*
 
 #### Lisp
 Run with Steel Bank Common Lisp and LISP VSCode extension
 
 #### F#
 ```bash
+cd CaesarCipher
 dotnet build
 dotnet run
 ```
+
+#### Gleam
+```bash
+cd caesar
+gleam run
+```
+
+#### JavaScript
+... it's JavaScript ...
+
+#### Scala
+```bash
+scala caesarFunc.scala
+```
+
 
 
 Note: For languages requiring online IDEs, the code is maintained in this repository but must be copied to the respective online environment for execution.
